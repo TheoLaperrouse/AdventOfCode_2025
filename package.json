@@ -10,7 +10,7 @@
     },
     "scripts": {
         "gen": "bun run src/scripts/generate-day.ts",
-        "day": "bun run src/runner.ts",
+        "start": "bun run src/runner.ts",
         "format": "biome format --write .",
         "lint": "biome lint .",
         "lint:fix": "biome check --write --unsafe ."
